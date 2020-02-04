@@ -8,4 +8,18 @@ function handleClick(e) {
 /* End Given Code, don't edit above here...*/
 
 /* Write your implementation of greet() */
+function greet(time){
+  
+  if (time < "12:00") 
+  return "Good Morning"
+
+    if (time >= "17:00")
+    return "Good Evening"
+
+    return "Good Afternoon"
+}
+
 /* Write your implementation of displayMessage() */
+function displayMessage(msg) {
+  document.getElementById("greeting").innerText = msg;
+}
